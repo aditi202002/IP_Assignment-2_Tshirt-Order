@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>T-shirt Form</title>
+</head>
+<style>
+body {
+background-color: #F0D218;
+}
+</style>
+<body>
+<fieldset>
+<legend align="center"><b><h1>Customized T-shirt Order</b></h1></legend>
+<div>
+<form style="margin: 0px 30%;border: 1px #F0D218;padding:30px;border-radius:
+30px;background-color: rgb(113, 136, 209);">
+<br><br>
+
+<label for="type">Choose the type of neck:</label><br>
+<input type="radio" name="type" value="Round" cols="5">
+<label for="round">Round Neck</label><br>
+<input type="radio" name="type" value="Polo" cols="22">
+<label for="polo">Polo Neck</label><br>
+<input type="radio" name="type" value="V" cols="22">
+<label for="v">V Neck</label><br><br>
+<label for="size">Choose size:</label><br>
+<select name="size" id="size" required>
+
+<option value="extra small">XS</option>
+<option value="small">S</option>
+<option value="Medium">M</option>
+<option value="Large">L</option>
+<option value="extra large">XL</option>
+
+Name: Swarali Patil Class: D15A Roll No:55
+<option value="extra extra large">XXL</option>
+</select>
+<br><br>
+
+<label for="favcolor">Choose the Colour:</label>
+
+<input type="color" id="favcolor" name="favcolor"
+value="#ff0000"><br><br>
+
+<label for="quantity">Quantity:</label><br>
+<input type="number" id="quantity" name="quantity" min="1"
+required><br><br>
+
+<label> Any Special Requests:</label><br>
+
+<input type="text" id="tagline" name="tagline" required><br><br>
+
+<label for="quantity">Add image file:</label><br>
+<input type="file" id="files" name="files" multiple><br><br>
+<label for="fname">Full Name:</label><br>
+<input type="text" id="fname" name="fname" required><br><br>
+<label for="lname">Email:</label><br>
+<input type="text" id="email" name="email" required><br><br>
+<label>Shipping Address:</label><br>
+<input type="text" id="add" name="add" required><br><br>
+
+<input style="width: 100px;background-color: green;outline: none; color:
+white;" type="submit" value="SUMBIT" >
+</form>
+</div>
+</fieldset>
+</body>
+</html>
